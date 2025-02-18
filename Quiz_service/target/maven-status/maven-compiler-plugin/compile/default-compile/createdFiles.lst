@@ -1,0 +1,8 @@
+com\wolfiee\quiz_service\model\QuestionWrapper.class
+com\wolfiee\quiz_service\model\Response.class
+com\wolfiee\quiz_service\model\Quiz.class
+com\wolfiee\quiz_service\QuizServiceApplication.class
+com\wolfiee\quiz_service\model\Quizdto.class
+com\wolfiee\quiz_service\dao\quizdao.class
+com\wolfiee\quiz_service\service\QuizService.class
+com\wolfiee\quiz_service\controller\QuizController.class
