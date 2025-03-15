@@ -10,8 +10,6 @@ import java.util.List;
 
 @Data
 @Entity
-@NoArgsConstructor
-@AllArgsConstructor
 
 public class Quiz {
 
@@ -22,6 +20,13 @@ public class Quiz {
 
     @ElementCollection
     private List<Integer> questionids;
+
+    public Quiz(Integer quizId, String javaQuiz, List<Integer> integers) {
+    }
+
+    public Quiz() {
+
+    }
 
     public int getId() {
         return id;
@@ -47,3 +52,4 @@ public class Quiz {
         this.questionids = questionids;
     }
 }
+

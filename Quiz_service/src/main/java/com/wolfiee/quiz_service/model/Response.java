@@ -18,6 +18,11 @@ public class Response {
         return questionid;
     }
 
+    public Response(Integer questionid, String response) {
+        this.questionid = questionid;
+        this.response = response;
+    }
+
     public void setQuestionid(Integer questionid) {
         this.questionid = questionid;
     }
